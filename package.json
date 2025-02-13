@@ -4,12 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx json-server --watch user.json --port 3000"
+    "start": "npx json-server --watch user.json --port 3000" 
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "express": "^4.21.2",
+    "json-server": "^1.0.0-beta.3",
+    "path": "^0.12.7"
   }
 }
